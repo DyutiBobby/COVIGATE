@@ -1,1 +1,3 @@
 Face mask and temperature detection door unlock system using Python and Arduino
+
+The proposed system involves detection of masked or unmasked people and a temperature sensing system for ensuring Covid-19 appropriate protocol is followed to allow only healthy person(s) in public/crowded places. The integration of Arduino Uno and MLX90614 non-contact temperature sensor, along with a MobileNetV2 machine learning model, is performed for complete execution. The system will classify a person as a masked or unmasked individual using ML techniques and detect their body temperature. If the individual meets the appropriate requirements, the system will enable them to access via the gate, which will be controlled by a servo motor in conjunction with a temperature sensor module.
